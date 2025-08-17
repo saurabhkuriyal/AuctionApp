@@ -1,11 +1,11 @@
 export default function Home() {
   return (
     <div className="mx-5 my-3">
-      <img src="/logo2.jpeg" alt="Hero Image" className="w-auto h-[80vh] mx-auto object-cover" />
-      <div className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <img src="/logo2.jpeg" alt="Hero Image" className="mx-auto object-cover w-full lg:max-w-[500px]" />
+      <div className="flex flex-col items-center justify-center my-4 px-4 text-center">
         {/* Heading */}
-        <h1 className="text-lg font-extrabold text-blue-900 lg:text-6xl">Yearling</h1>
-        <h1 className="text-lg font-extrabold text-blue-900 lg:text-6xl mb-2">Performance Sale</h1>
+        <h1 className="text-4xl font-extrabold text-blue-900 lg:text-6xl">Yearling</h1>
+        <h1 className="text-4xl font-extrabold text-blue-900 md:text-5xl lg:text-6xl mb-2">Performance Sale</h1>
 
         {/* Subtitle */}
         <p className="italic text-gray-600 mb-6">Follow the link below.</p>
@@ -49,7 +49,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col items-center justify-center min-h-screen px-6 py-10 text-center space-y-6">
+      <div className="flex flex-col items-center justify-center px-6 py-10 text-center space-y-6">
       {/* Contact Info */}
       <div>
         <p className="font-bold text-lg">Contact Nate Morrison</p>
