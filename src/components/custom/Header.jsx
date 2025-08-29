@@ -133,7 +133,7 @@ export default function Example() {
                         Log in <span aria-hidden="true">&rarr;</span>
                         </button>
                     </a> */}
-                    <Link href="/login" className="text-sm/6 font-semibold mb-6 text-gray-900">
+                    <Link href="/register" className="text-sm/6 font-semibold mb-6 text-gray-900">
                         <Button
                             variant="outline"
                             className="mx-1"
