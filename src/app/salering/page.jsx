@@ -48,7 +48,7 @@ export default function page() {
     <div>
       <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
         <div className="max-w-4xl text-center space-y-6">
-
+          
           {/* Title */}
           <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
             Ace of Spades & McGuire Cattle Co. Bull Sale <br />

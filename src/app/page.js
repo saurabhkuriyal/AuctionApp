@@ -1,6 +1,7 @@
 export default function Home() {
   return (
     <div className="mx-5 my-3">
+      {/* Hero Image */}
       <img src="/logo2.jpeg" alt="Hero Image" className="mx-auto object-cover w-full lg:max-w-[500px]" />
       <div className="flex flex-col items-center justify-center my-4 px-4 text-center">
         {/* Heading */}
